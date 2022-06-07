@@ -1,0 +1,58 @@
+/*index*/
+#img{
+    background-color: #f8cbac;
+    background-image: url(../images/index.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.a{
+    margin: 400px 0 0 950px;
+}
+.c{
+    margin: 5px 0 0 900px;
+}
+
+
+/*about*/
+#about{
+    background-color: #e2f0d9;
+    background-image: url(../images/Aboutback.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#muse{
+    background-color: #bdd2d5;
+    width: 900px;
+    margin-left: 280px;
+    
+}
+.f{
+margin-left: 280px;
+}
+S
+h1{
+    font-size: 60px;
+}
+#Plinius{
+    margin-left: 400px;
+}
+/*Achives*/
+#achives{
+    background-color:#e2f0d9 ;
+}  
+#museum{
+    background-color:#e2f0d9 ;
+    margin-top: 5px;
+    margin-left: 800px;
+    float: left;
+}
+#ta{
+    border-collapse: collapse;
+    margin-left: 150px;
+    overflow: hidden;
+}
+th,td{
+    border:1px solid black;
+    padding: 7px 10px;
+    text-align: left;
+}
