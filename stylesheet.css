@@ -1,58 +1,118 @@
 /*index*/
-#img{
+#photo{
     background-color: #f8cbac;
-    background-image: url(../images/index.jpg);
+    background-image: url(../img/index.jpg);
     background-repeat: no-repeat;
     background-position: center top;
 }
 .a{
-    margin: 400px 0 0 950px;
+    margin: 400px 0 0 0;
 }
 .c{
-    margin: 5px 0 0 900px;
+    margin: 1px 0 0 950px;
 }
-
+.g{
+    margin: 100px 100px 0 800px;
+}
 
 /*about*/
 #about{
     background-color: #e2f0d9;
-    background-image: url(../images/Aboutback.jpg);
+    background-image: url(../img/Aboutback.jpg);
     background-repeat: no-repeat;
     background-position: center top;
 }
-#muse{
-    background-color: #bdd2d5;
-    width: 900px;
-    margin-left: 280px;
-    
-}
+
 .f{
-margin-left: 280px;
+    margin-left: 200px;
 }
-S
+
 h1{
     font-size: 60px;
 }
-#Plinius{
+    
+.Plinius{
     margin-left: 400px;
 }
-/*Achives*/
-#achives{
-    background-color:#e2f0d9 ;
-}  
-#museum{
-    background-color:#e2f0d9 ;
-    margin-top: 5px;
-    margin-left: 800px;
-    float: left;
-}
-#ta{
-    border-collapse: collapse;
-    margin-left: 150px;
-    overflow: hidden;
-}
-th,td{
-    border:1px solid black;
-    padding: 7px 10px;
+
+.path{
     text-align: left;
+}
+.path ol {
+	list-style-type: none;
+	margin-bottom: 20px;
+	padding: 0;
+}
+.path ol li {
+	display: inline;
+}
+.path ol li a {
+	padding-right: 12px;
+	background-image: url(../img/path.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.muse{
+    background-color: #bdd2d5;
+    width: 900px;
+    margin-left: 280px;
+    text-align: left;  
+}
+
+
+
+/*Achives*/
+body{
+    background-color:#e2f0d9 ;
+    box-sizing: border-box; 
+}
+.path_level{
+    text-align: left;
+} 
+.path_level ol {
+	list-style-type: none;
+	margin-bottom: 20px;
+	padding: 0;
+}
+.path_level ol li {
+	display: inline;
+}
+.path_level ol li a {
+	padding-right: 12px;
+	background-image: url(../img/path.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#gallery {
+    margin: auto;
+    padding-top: 30px;
+    width: 400px;
+}
+
+#gallery .main p {
+    color: rgb(104, 103, 103);
+    font-size: 20px;
+}
+
+#gallery .main img {
+    border:3px solid #ffffff;
+    box-shadow: 0px 0px 5px #000000;
+    width: 440px;
+}
+
+#gallery .thumb img{
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px #b1b1b1;
+    height: 28px;
+    margin: 5px;
+    width: 28px;
+}
+
+.h{
+    text-align:center;
+    color: ffffff;
+    font-size: 12px;
 }
